@@ -1,0 +1,98 @@
+footer {
+    background-color: #2F303A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .address-footer {
+  font-weight: normal;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  display: block;
+  color:$text-white-color;
+  }
+
+  .address-footer.text {
+    margin-bottom: 9px;
+  }
+  
+  .address-nav-link-footer {
+  color: rgba(255, 255, 255, 0.6);
+  &.mail {
+    margin-bottom: 9px;
+   }
+  }
+
+  .footer-flex {
+  display: flex;
+  padding-top: 45px ;
+  align-items: baseline;
+  padding-bottom: 23px;
+  }
+  
+  .footer-section-address {
+    flex-direction: column;
+  }
+  
+  .footer-section.join-in {
+    margin-left: 69px;
+  }
+  
+  .join-in {
+  margin-bottom: 20px;
+
+  &-text {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color:$text-white-color;
+    margin-bottom: 20px;
+  }
+  &-svg {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    fill: $title-theme-color;
+  }
+  }
+  
+  .footer-subscribe{
+    position: relative;
+    margin: 0px;
+    margin-left: 94px;
+    
+    .footer-subscribe-form {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+    }
+  }
+    
+  .footer-subscribe-input{
+      border-radius:4px;
+      width:358px;
+      padding-left:15px;color:#fff;border:1px solid rgba(255,255,255,0.3);
+      background-color:#2F303A;
+      -webkit-filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
+      filter:drop-shadow(0px 4px 4px rgba(0,0,0,0.15));
+    }
+  
+  .footer-subscribe-label {
+      position:absolute;
+      left:16px;top:50%;
+      -webkit-transform:translateY(-50%);
+      transform:translateY(-50%);
+      -webkit-transition-duration:250ms;
+      transition-duration:250ms;
+      -webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+      transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+      color:#757575;
+    }
+      
+  .footer-subscribe-input:focus+.footer-subscribe-label,
+  .footer-subscribe-input:not(:placeholder-shown)+.footer-subscribe-label {
+    opacity:0;
+  }
