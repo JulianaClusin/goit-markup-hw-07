@@ -8,7 +8,7 @@
         "../sass/utils/_placeholder.scss",
         "../sass/base/_base.scss",
         "../sass/components/_logo.scss",
-        "../sass/components/_conteiner.scss",
+        "../sass/components/_containar.scss",
         "../sass/components/_section.scss",
         "../sass/components/_button.scss",
         "../sass/components/_social.scss",
